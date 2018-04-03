@@ -19,7 +19,7 @@ public class Controller1 {
     private String messageNew;
 
 
-    @RequestMapping("/")
+    @RequestMapping("/welcome")
     public String welcome(){
 
         return "Welcome my friend!";
